@@ -1,0 +1,17 @@
+{
+    "name": "ethangrant/module-support-code-backup",
+    "description": "Extends core module-support code backup command to tar files from mage root, not including absolute file path.",
+    "require": {
+        "magento/module-support": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ethangrant\\SupportCodeBackup\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    },
+    "type": "magento2-module",
+    "version": "0.1.0"
+}
